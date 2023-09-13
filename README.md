@@ -21,7 +21,7 @@ $ pip install -r requirements.txt
 
 To setup the database, run the python script `init_db.py`.
 ```bash
-$ python3 init_py
+$ python3 init_db.py
 ```
 
 ---
@@ -42,7 +42,7 @@ $ gunicorn api:app
 
 ### Testing
 
-The API is publicly accessible at ...
+The API is publicly accessible on [Render](https://hng-stage-two-b6ki.onrender.com)
 
 and its Postman tests can be found [here](https://elements.getpostman.com/redirect?entityId=18989194-5585868f-a3c1-4c9b-9d0d-8be6c1c93da4&entityType=collection)
 
