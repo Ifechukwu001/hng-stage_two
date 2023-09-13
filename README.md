@@ -3,8 +3,12 @@
 
 This is a simple RESTful API that performs the basic CRUD operations - Create, Read, Update and Delete, on a Person resource.
 
+---
+
 ### Class Diagram
 ![Alttext](/Class%20Diagram.png)
+
+---
 
 ### SetUp
 
@@ -20,6 +24,8 @@ To setup the database, run the python script `init_db.py`.
 $ python3 init_py
 ```
 
+---
+
 ### Execution
 
 After setting up the enviroment, you run the development server using:
@@ -32,10 +38,14 @@ For production, use gunicorn instead:
 $ gunicorn api:app
 ```
 
+---
+
 ### Testing
 
 The API is publicly accessible at ...
 
 and its Postman tests can be found [here](https://elements.getpostman.com/redirect?entityId=18989194-5585868f-a3c1-4c9b-9d0d-8be6c1c93da4&entityType=collection)
+
+---
 
 © [Ifechukwu Ogidi](https://github.com/Ifechukwu001)
