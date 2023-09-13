@@ -1,5 +1,5 @@
-## HNG Stage Two Task
-#### RESTful API
+# HNG Stage Two Task
+## RESTful API
 
 This is a simple RESTful API that performs the basic CRUD operations - Create, Read, Update and Delete, on a Person resource.
 
